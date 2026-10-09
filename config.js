@@ -9,7 +9,7 @@ export const CONFIG = Object.freeze({
     destination: "https://wijkstroom.maps.arcgis.com/home/content.html"
   }),
   groupRoutes: Object.freeze({
-    "25702cd09f0d4008b493b454fb639ff7": Object.freeze({ name: "BAM", destination: "https://experience.arcgis.com/experience/b6740c05d6f04525baa7b692ec8edab9/" }),
+    "25702cd09f0d4008b493b454fb639ff7": Object.freeze({ name: "BAM", destination: "https://experience.arcgis.com/experience/5c7c9d23a261434b8e39d0796f8aff07/" }),
     "4eb118d8a5ec4684a55905eba338ab53": Object.freeze({ name: "Hanab", destination: "https://experience.arcgis.com/experience/b6740c05d6f04525baa7b692ec8edab9/" }),
     "933357c2b6fc419dbfe5b5873f017e1b": Object.freeze({ name: "Siers", destination: "https://experience.arcgis.com/experience/b6740c05d6f04525baa7b692ec8edab9/" }),
     "1885a8866b394baba80e817a2a171983": Object.freeze({ name: "Van Gelder", destination: "https://experience.arcgis.com/experience/b6740c05d6f04525baa7b692ec8edab9/" }),
