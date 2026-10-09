@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Cache-Control" content="no-store">
+  <title>Wijkstroom aanmelden</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="https://js.arcgis.com/5.1/"></script>
+</head>
+<body>
+  <main class="card" aria-live="polite">
+    <div class="logo" aria-hidden="true">WS</div>
+    <h1>Wijkstroom</h1>
+    <p id="status">Aanmelding voorbereiden…</p>
+    <div id="spinner" class="spinner" aria-label="Bezig"></div>
+    <section id="error" class="error" hidden>
+      <h2>Aanmelden niet gelukt</h2>
+      <p id="errorMessage">De Wijkstroom-omgeving kon niet worden bepaald.</p>
+      <button id="retry" type="button">Opnieuw proberen</button>
+    </section>
+  </main>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
